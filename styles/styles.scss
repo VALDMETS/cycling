@@ -35,16 +35,21 @@ body {
   @include outer-container(965px);
   a {
     @include span-columns(12);
+    background-color: white;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .img-one {
     height: 75vw;
     background-image: url("http://i.imgur.com/azKigdR.png?1");
+
   }
 }
 
 .img-two {
   height: 75vw;
-  background-image: url("http://i.imgur.com/CvHQqzh.png?1")
+  background-image: url("http://i.imgur.com/CvHQqzh.png?1");
 }
 .img-three {
   height: 75vw;
