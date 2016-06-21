@@ -5,6 +5,24 @@ html {
   box-sizing: inherit; }
 
 body {
+<<<<<<< HEAD
+  color: red; }
+
+.third {
+  text-align: center;
+  font: red;
+  font-size: 30px;
+  width: 100%;
+  border: 3px soid red; }
+  .third .phone-num {
+    font-weight: bold;
+    line-height: 3em;
+    border: 1px solid red; }
+    .third .phone-num .barton-email {
+      font-weight: bold; }
+      .third .phone-num .barton-email .copyright {
+        line-height: 3em; }
+=======
   color: #282828;
   background: #ded4ba;
   margin: 0; }
@@ -99,5 +117,6 @@ body {
 
   .img-three {
     height: 25vw; } }
+>>>>>>> c09342f61dbaef573ec84bb8f6e8b7d92128bf60
 
 /*# sourceMappingURL=styles.css.map */
