@@ -35,16 +35,21 @@ body {
   @include outer-container(965px);
   a {
     @include span-columns(12);
+    background-color: white;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .img-one {
     height: 75vw;
     background-image: url("http://i.imgur.com/azKigdR.png?1");
+
   }
 }
 
 .img-two {
   height: 75vw;
-  background-image: url("http://i.imgur.com/CvHQqzh.png?1")
+  background-image: url("http://i.imgur.com/CvHQqzh.png?1");
 }
 .img-three {
   height: 75vw;
@@ -79,29 +84,41 @@ body {
 }
 
   .third {
+    @include outer-container;
     text-align: center;
     font: $main-color;
     font-size: 30px;
     width: 100%;
     // line-height: 1em;
-    border: 3px soid red;
+    // border: 3px soid red;
+
+
+    p{
+      @include span-columns(8);
+      @include shift(2) ;
+      float: none;
+
+    }
 
     .phone-num {
       font-weight: bold;
       line-height: 3em;
-      border: 1px solid red;
 
 
-      .barton-email {
-        font-weight: bold;
-        // border: 1px solid red;
-          // line-height: 3em;
-
-        .copyright {
-          line-height: 3em;
-          // border: 1px solid red;
-
-        }
-      }
     }
+    .barton-email {
+      font-weight: bold;
+      // border: 1px solid red;
+        // line-height: 3em;
+    }
+    footer {
+      line-height: 3em;
+      border-top: 1px solid black;
+      text-align: center;
+
+      // border: 1px solid red;
+
+    }
+
+
   }

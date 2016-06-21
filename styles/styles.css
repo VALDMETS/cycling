@@ -54,7 +54,11 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 100%;
+    background-color: white;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat; }
     .picture-grid a:last-child {
       margin-right: 0; }
   .picture-grid .img-one {
@@ -100,6 +104,7 @@ body {
   .img-three {
     height: 25vw; } }
 .third {
+<<<<<<< HEAD
   text-align: center;
   font: #282828;
   font-size: 30px;
@@ -113,5 +118,36 @@ body {
       font-weight: bold; }
       .third .phone-num .barton-email .copyright {
         line-height: 3em; }
+=======
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font: #282828;
+  font-size: 30px;
+  width: 100%; }
+  .third::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .third p {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    float: none; }
+    .third p:last-child {
+      margin-right: 0; }
+  .third .phone-num {
+    font-weight: bold;
+    line-height: 3em; }
+  .third .barton-email {
+    font-weight: bold; }
+  .third footer {
+    line-height: 3em;
+    border-top: 1px solid black;
+    text-align: center; }
+>>>>>>> c47136383ae602383302cd28a1896781a6134b69
 
 /*# sourceMappingURL=styles.css.map */
