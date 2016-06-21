@@ -4,6 +4,28 @@
 
 body {
   color: $main-color;
+  background: $accent-color;
+  margin: 0;
+}
+.first {
+  @include outer-container;
+  border-bottom: 1px solid black;
+}
+.logo {
+  text-align: center;
+  @include span-columns(8);
+  @include shift(2);
+  img {
+    width: 35vw;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+}
+.header-text {
+  text-align: center;
+  margin: 2rem auto;
+  width: 250px;
 }
 
 .picture-grid {
