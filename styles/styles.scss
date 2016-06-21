@@ -27,32 +27,53 @@ body {
   margin: 2rem auto;
   width: 250px;
 }
-
+.second {
+    border-bottom: 1px solid $main-color;
+}
 .picture-grid {
-  height: 25vw;
+  height: 225vw;
   @include outer-container(965px);
-  // padding: 10px;
   a {
-    height: 25vw;
-    // display: inline-block;
-    // margin-right: 0;
     @include span-columns(12);
-    // @include omega();
-    background-color: orange;
   }
+  .img-one {
+    height: 75vw;
+    background-image: url("http://i.imgur.com/azKigdR.png?1");
+  }
+}
+
+.img-two {
+  height: 75vw;
+  background-image: url("http://i.imgur.com/CvHQqzh.png?1")
+}
+.img-three {
+  height: 75vw;
+  background-image: url("http://cdn.shopify.com/s/files/1/0232/3305/products/State_Bicycle_Cyclocross_SSCX_Thunderbird2_large.JPG?v=1432246329");
 }
 .second p {
   font-size: 0;
 }
 @media (min-width: 480px) {
+  .picture-grid {
+    height: 25vw;
+  }
   .picture-grid a {
     height: 25vw;
     max-height: 330px;
     @include span-columns(4);
-    // @include omega();
+  }
+  .picture-grid .img-one {
+    height: 25vw;
   }
   .second p {
+    margin: 40px;
     text-align: center;
     font-size: 20px;
+  }
+  .img-two {
+    height: 25vw;
+  }
+  .img-three {
+    height: 25vw;
   }
 }

@@ -1,53 +1,3 @@
-<<<<<<< HEAD
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
-body {
-  color: red; }
-
-.picture-grid {
-  height: 25vw;
-  max-width: 965px;
-  margin-left: auto;
-  margin-right: auto; }
-  .picture-grid::after {
-    clear: both;
-    content: "";
-    display: block; }
-  .picture-grid a {
-    height: 25vw;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background-color: orange; }
-    .picture-grid a:last-child {
-      margin-right: 0; }
-
-.second p {
-  font-size: 0; }
-
-@media (min-width: 480px) {
-  .picture-grid a {
-    height: 25vw;
-    max-height: 330px;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .picture-grid a:last-child {
-      margin-right: 0; }
-
-  .second p {
-    text-align: center;
-    font-size: 20px; } }
-
-/*# sourceMappingURL=styles.css.map */
-=======
-<<<<<<< HEAD
 html {
   box-sizing: border-box; }
 
@@ -88,30 +38,66 @@ body {
   margin: 2rem auto;
   width: 250px; }
 
-/*# sourceMappingURL=styles.css.map */
-=======
-/*
-Errno::ENOENT: No such file or directory - styles.css
+.second {
+  border-bottom: 1px solid #282828; }
 
-Backtrace:
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `read'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - styles.css"; }
->>>>>>> 580374a77a534647dbf06d783504b6c1516e622f
->>>>>>> b1142c9131024c0bf0b7b4ba5b3cb1663552e5d2
+.picture-grid {
+  height: 225vw;
+  max-width: 965px;
+  margin-left: auto;
+  margin-right: auto; }
+  .picture-grid::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .picture-grid a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .picture-grid a:last-child {
+      margin-right: 0; }
+  .picture-grid .img-one {
+    height: 75vw;
+    background-image: url("http://i.imgur.com/azKigdR.png?1"); }
+
+.img-two {
+  height: 75vw;
+  background-image: url("http://i.imgur.com/CvHQqzh.png?1"); }
+
+.img-three {
+  height: 75vw;
+  background-image: url("http://cdn.shopify.com/s/files/1/0232/3305/products/State_Bicycle_Cyclocross_SSCX_Thunderbird2_large.JPG?v=1432246329"); }
+
+.second p {
+  font-size: 0; }
+
+@media (min-width: 480px) {
+  .picture-grid {
+    height: 25vw; }
+
+  .picture-grid a {
+    height: 25vw;
+    max-height: 330px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .picture-grid a:last-child {
+      margin-right: 0; }
+
+  .picture-grid .img-one {
+    height: 25vw; }
+
+  .second p {
+    margin: 40px;
+    text-align: center;
+    font-size: 20px; }
+
+  .img-two {
+    height: 25vw; }
+
+  .img-three {
+    height: 25vw; } }
+
+/*# sourceMappingURL=styles.css.map */
