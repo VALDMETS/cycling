@@ -5,6 +5,7 @@ html {
   box-sizing: inherit; }
 
 body {
+<<<<<<< HEAD
   color: red; }
 
 .third {
@@ -21,5 +22,101 @@ body {
       font-weight: bold; }
       .third .phone-num .barton-email .copyright {
         line-height: 3em; }
+=======
+  color: #282828;
+  background: #ded4ba;
+  margin: 0; }
+
+.first {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid black; }
+  .first::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.logo {
+  text-align: center;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  .logo:last-child {
+    margin-right: 0; }
+  .logo img {
+    width: 35vw; }
+  .logo h1 {
+    font-size: 6vw; }
+
+.header-text {
+  text-align: center;
+  margin: 2rem auto;
+  width: 250px; }
+
+.second {
+  border-bottom: 1px solid #282828; }
+
+.picture-grid {
+  height: 225vw;
+  max-width: 965px;
+  margin-left: auto;
+  margin-right: auto; }
+  .picture-grid::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .picture-grid a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .picture-grid a:last-child {
+      margin-right: 0; }
+  .picture-grid .img-one {
+    height: 75vw;
+    background-image: url("http://i.imgur.com/azKigdR.png?1"); }
+
+.img-two {
+  height: 75vw;
+  background-image: url("http://i.imgur.com/CvHQqzh.png?1"); }
+
+.img-three {
+  height: 75vw;
+  background-image: url("http://cdn.shopify.com/s/files/1/0232/3305/products/State_Bicycle_Cyclocross_SSCX_Thunderbird2_large.JPG?v=1432246329"); }
+
+.second p {
+  font-size: 0; }
+
+@media (min-width: 480px) {
+  .picture-grid {
+    height: 25vw; }
+
+  .picture-grid a {
+    height: 25vw;
+    max-height: 330px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .picture-grid a:last-child {
+      margin-right: 0; }
+
+  .picture-grid .img-one {
+    height: 25vw; }
+
+  .second p {
+    margin: 40px;
+    text-align: center;
+    font-size: 20px; }
+
+  .img-two {
+    height: 25vw; }
+
+  .img-three {
+    height: 25vw; } }
+>>>>>>> c09342f61dbaef573ec84bb8f6e8b7d92128bf60
 
 /*# sourceMappingURL=styles.css.map */
