@@ -5,3 +5,32 @@
 body {
   color: $main-color;
 }
+
+.picture-grid {
+  height: 25vw;
+  @include outer-container(965px);
+  // padding: 10px;
+  a {
+    height: 25vw;
+    // display: inline-block;
+    // margin-right: 0;
+    @include span-columns(12);
+    // @include omega();
+    background-color: orange;
+  }
+}
+.second p {
+  font-size: 0;
+}
+@media (min-width: 480px) {
+  .picture-grid a {
+    height: 25vw;
+    max-height: 330px;
+    @include span-columns(4);
+    // @include omega();
+  }
+  .second p {
+    text-align: center;
+    font-size: 20px;
+  }
+}
