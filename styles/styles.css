@@ -5,24 +5,6 @@ html {
   box-sizing: inherit; }
 
 body {
-<<<<<<< HEAD
-  color: red; }
-
-.third {
-  text-align: center;
-  font: red;
-  font-size: 30px;
-  width: 100%;
-  border: 3px soid red; }
-  .third .phone-num {
-    font-weight: bold;
-    line-height: 3em;
-    border: 1px solid red; }
-    .third .phone-num .barton-email {
-      font-weight: bold; }
-      .third .phone-num .barton-email .copyright {
-        line-height: 3em; }
-=======
   color: #282828;
   background: #ded4ba;
   margin: 0; }
@@ -72,7 +54,11 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 100%;
+    background-color: white;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat; }
     .picture-grid a:last-child {
       margin-right: 0; }
   .picture-grid .img-one {
@@ -117,6 +103,19 @@ body {
 
   .img-three {
     height: 25vw; } }
->>>>>>> c09342f61dbaef573ec84bb8f6e8b7d92128bf60
+.third {
+  text-align: center;
+  font: #282828;
+  font-size: 30px;
+  width: 100%;
+  border: 3px soid red; }
+  .third .phone-num {
+    font-weight: bold;
+    line-height: 3em;
+    border: 1px solid red; }
+    .third .phone-num .barton-email {
+      font-weight: bold; }
+      .third .phone-num .barton-email .copyright {
+        line-height: 3em; }
 
 /*# sourceMappingURL=styles.css.map */
