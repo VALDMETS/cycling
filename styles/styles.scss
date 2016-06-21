@@ -5,3 +5,31 @@
 body {
   color: $main-color;
 }
+
+  .third {
+    text-align: center;
+    font: $main-color;
+    font-size: 30px;
+    width: 100%;
+    // line-height: 1em;
+    border: 3px soid red;
+
+    .phone-num {
+      font-weight: bold;
+      line-height: 3em;
+      border: 1px solid red;
+
+
+      .barton-email {
+        font-weight: bold;
+        // border: 1px solid red;
+          // line-height: 3em;
+
+        .copyright {
+          line-height: 3em;
+          // border: 1px solid red;
+
+        }
+      }
+    }
+  }
